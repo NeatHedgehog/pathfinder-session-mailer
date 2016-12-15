@@ -1,6 +1,0 @@
-#!/bin/bash
-
-sudo rm -R /home/dockeruser/AutoMailerApp
-sudo cp -R /home/nerak/Projects/AutoMailer/bin/Release/netcoreapp1.0 /home/dockeruser/AutoMailerApp
-sudo chown -R dockeruser:docker /home/dockeruser/AutoMailerApp
-sudo chmod -R 755 /home/dockeruser/AutoMailerApp
